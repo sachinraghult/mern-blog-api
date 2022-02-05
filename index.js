@@ -15,7 +15,7 @@ const app = express();
 dotenv.config();
 
 app.use(express.json());
-app.use(cors({ origin: true }));
+app.use(cors());
 
 
 // connecting to mongoDB

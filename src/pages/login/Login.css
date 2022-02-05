@@ -1,0 +1,74 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://uploads-ssl.webflow.com/608f8ac45a9b7b4cdcafe3f3/609e9901d30b026a63fbd866_linkedin-publishing-platform.jpg");
+    background-size: cover;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.loginButton:disabled {
+    cursor: not-allowed;
+    background-color: rgb(228, 163, 163);
+}
+
+.loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.loginError {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-style: italic;
+}

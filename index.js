@@ -45,6 +45,6 @@ app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 
 
-app.listen("5000", () => {
+app.listen(4000, () => {
     console.log("Backend is running");
 });
